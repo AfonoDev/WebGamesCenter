@@ -1,0 +1,58 @@
+.container-itens-login{
+    width: 1000px;
+    height: 650px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    grid-template-columns: 30% 60%;
+}
+.caixa-login{
+    background-color: #15202B;
+}
+.container-area-login{
+    background-color: rgb(228, 228, 228);
+}
+.imagem-logo-web-login{
+    margin-top: 150px;
+    width: 280px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 5px;
+}
+.container-area-imagem{
+    background-image: url('../../assets/login.jpeg');
+    width: 700px;
+    height: 650px;
+    background-size: 1100px;
+}
+.input-login{
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 260px;
+    background-color: rgb(65, 65, 65);
+    height: 35px;
+}
+.login-caixa{
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height: 50px;
+}
+.input-button{
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: var(--red-secondary);
+    color: var(--white);
+    border: none;
+    transition: background-color 0.2s;
+    resize:none;
+    border-radius: 5px;
+  }
+  .input-button:hover{
+    transition: 1s;
+    background-color: var(--red-hover);
+    cursor: pointer;
+  }

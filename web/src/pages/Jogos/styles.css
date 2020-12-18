@@ -1,0 +1,139 @@
+.Container{
+    width: 1300px;
+    min-height: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+:root{
+    --primeiro:#737373;
+    --secundario:#191919;
+    --blue-fundo:#15202B;
+    
+    --card-loja:#E5E5E5;
+  
+    --white:#FFFFFF;
+  
+    --red-primary:#FC0004;
+    --red-secondary:#E0021B;
+    --red-chat:#FA0621;
+    --red-hover:#AB0106;
+  
+    --blue:#1289FF;
+    
+  
+  }
+html{
+    background-color: var(--blue-fundo);
+    
+  }
+.body{
+    background-color: var(--blue-fundo);
+    overflow-y: hidden;
+  }
+.input-button{
+    width: 120px;
+    height: 31px;
+    margin-left: 15px;
+    background-color: var(--red-secondary);
+    color: var(--white);
+    border: none;
+    transition: background-color 0.2s;
+    resize:none;
+    border-radius: 5px;
+  }
+.input-button:hover{
+    transition: 1s;
+    background-color: var(--red-hover);
+    cursor: pointer;
+  }
+.containernavegacao{
+    width: 100%;
+    height: 55px;
+    background-color: var(--secundario);
+    
+    
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.pesquisa-genero{
+    display: grid;
+    grid-template-columns: 50% 10%;
+}
+.text-input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    list-style: none;
+    width: 500px;
+    height: 30px;
+    outline: none;
+}
+.select-input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 220px;
+    height: 30px;
+    outline: none;
+}
+.navegacao{
+    margin-top: -20px;
+}
+.ul-menu-nav{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.li-menu-navbar{
+    cursor: pointer;
+    color: var(--white);
+    text-align: center;
+    outline: none;
+    margin-left: 15px;
+    list-style: none;
+    height: 25px;
+    float: left;
+    transition: 1s;
+}
+.li-menu-navbar:hover{
+    transition: 0.1s;
+    color: var(--red-hover);
+}
+.container-card-jogo{
+    width: 1300px;
+    min-height: 700px;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+}
+.card-jogo{
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    margin-left: 15px;
+    height: 300px;
+    background-color: var(--secundario);
+    float: left;
+    border-radius: 5px;
+}
+.card-header-jogo{
+    width: auto;
+    height: 35px;
+    color: var(--white);
+}
+.card-body-jogo{
+    background-size: 15px;
+    height: 200px;
+}
+.card-footer-jogo{
+    height: 300px;
+}
+.img-type-size{
+    width: 180px;
+    height: 190px;
+    margin-left: 38px;
+    margin-right: auto;
+}
+.bg-secundario{
+    background-color: var(--secundario);
+}

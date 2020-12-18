@@ -1,0 +1,127 @@
+body{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+.container-loja-adm{
+    width: 1300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+:root{
+    --primeiro:#737373;
+    --segundario:#191919;
+    --blue-fundo:#15202B;
+    --text-area:#202020;
+    
+    --card-loja:#E5E5E5;
+  
+    --white:#FFFFFF;
+  
+    --red-primary:#FC0004;
+    --red-secondary:#E0021B;
+    --red-chat:#FA0621;
+    --red-hover:#AB0106;
+  
+    --blue:#1289FF; 
+}
+.corpo-loja{
+    background-color: var(--blue-fundo);
+}
+.container-menu-loja{
+    width: 100%;
+    height: 40px;
+    background-color: var(--segundario);
+}
+.container-menu-loja nav{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+}
+.container-menu-loja nav ul{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+.container-menu-loja nav ul li{
+    color: var(--white);
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.container-body{
+    width: 1300px;
+    min-height: 600px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-add{
+    width: 300px;
+    height: 330px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: var(--primeiro);
+}
+.container-tabela-crud{
+    width: 750px;
+    height: 450px;
+    background-color: var(--primeiro);
+    margin-top: 25px;
+}
+.container-Table{
+    width: 740px;
+    height: 450px;
+    overflow-x: auto;
+    height: calc(47vh - 70px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.formulario-loja-adm{
+    width: 260px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-button-loja{
+    width: 120px;
+    height: 35px;
+    background-color: var(--red-secondary);
+    color: var(--white);
+    border: none;
+    transition: background-color 0.2s;
+    resize:none;
+    border-radius: 5px;
+  }
+  .input-button-loja:hover{
+    transition: 1s;
+    background-color: var(--red-hover);
+    cursor: pointer;
+  }
+  .container-acao{
+    width: 100%;
+    height: 100%;
+  }
+.icon-acao{
+    float: left;
+    margin-left: 3px;
+  }
+.svg-loja-adm{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.svg-loja-adm:hover{
+    color: var(--blue-fundo);
+}
+form input[type="file"]{
+    display: none;
+}

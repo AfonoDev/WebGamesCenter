@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#191919</color>
+    <color name="colorPrimaryDark">#3c4754</color>
+    <color name="colorAccent">#737373</color>
+    <color name="white">#ffffff</color>
+    <color name="blueFundo">#15202B</color>
+    <color name="cardLoja">#E5E5E5</color>
+    <color name="redPrimary">#FC0004</color>
+    <color name="redSecondary">#E0021B</color>
+    <color name="redChat">#FA0621</color>
+    <color name="blue">#1289FF</color>
+</resources>

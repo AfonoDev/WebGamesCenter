@@ -1,0 +1,2 @@
+rootProject.name='Web Games Center'
+include ':app'

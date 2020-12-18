@@ -1,0 +1,193 @@
+:root{
+  --primary:#737373;
+  --secondary:#191919;
+  --blue-fundo:#15202B;
+  
+  --card-loja:#E5E5E5;
+
+  --white:#FFFFFF;
+
+  --red-primary:#FC0004;
+  --red-secondary:#E0021B;
+  --red-chat:#FA0621;
+  --red-hover:#AB0106;
+
+  --blue:#1289FF;
+
+  --alertErro: #12182D;
+  --alertSucesso: #00AA00DD;
+  
+
+}
+.svgerror{
+  font-size: 15px;
+}
+@media (min-width:1200px){
+  .corpo-index{
+    width: auto;
+    min-height: 1200px;
+    height: calc(120vh - 70px);
+    background-image:url("../../assets/jogo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .lucides{
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 100%;
+    height: 1200px;
+    height: calc(120vh - 70px);
+  }
+  .login{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .Logo{
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .input{
+    margin-top: 10px;
+    width: 195px;
+    height: 34px;
+    margin-left: 15px;
+    border-radius: 7px;
+    padding: 5px;
+    outline: none;
+  }
+  .texto-gamer{
+    width: 300px;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: 210px;
+    color: var(--white);
+  }
+  .register{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 30px;
+    
+  }
+  .registro{
+    margin-top: 3vh;
+    width: 1200px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+  }
+  .divisao{
+    width: 5px;
+    height: 500px;
+    margin-left: auto;
+    margin-top: 90px;
+    background-color: var(--white);
+    transform:rotate(20deg);
+    position: relative;
+  }
+  .input-register{
+    margin-top: 10px;
+    width: 195px;
+    height: 25px;
+  }
+  #input-button{
+    width: 120px;
+    height: 31px;
+    margin-left: 15px;
+    background-color: var(--red-secondary);
+    color: var(--white);
+    border: none;
+    transition: background-color 0.2s;
+    resize:none;
+  }
+  #input-button:hover{
+    transition: 1s;
+    background-color: var(--red-hover);
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .corpo-index{
+    width: auto;
+    min-height: 1200px;
+    height: calc(120vh - 70px);
+    background-image:url("../../assets/jogo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+  }
+  .lucides{
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 100%;
+    min-height: 1400px;
+
+  }
+  .Logo{
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .input{
+    margin-top: 10px;
+    width: 100px;
+    height: 34px;
+    margin-left: 15px;
+    border-radius: 7px;
+    padding: 5px;
+    outline: none;
+  }
+  .texto-gamer{
+    width: 300px;
+    height: 350px;
+    margin-top: 50vh;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: var(--white);
+  }
+  .register{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    
+  }
+  .registro{
+    margin-top: 5vh;
+    width: 300px;
+    height: 600px;
+  }
+  .input-register{
+    margin-top: 10px;
+    width: 195px;
+    height: 25px;
+  }
+  #input-button{
+    width: 100px;
+    height: 31px;
+    margin-left: 15px;
+    background-color: var(--red-secondary);
+    color: var(--white);
+    border: none;
+    transition: background-color 0.2s;
+    resize:none;
+  }
+  #input-button:hover{
+    transition: 1s;
+    background-color: var(--red-hover);
+    cursor: pointer;
+  }
+  .mobile-botao{
+    width: 100px;
+    height: 35px;
+    background-color: var(--red-secondary);
+    outline: none;
+    color: var(--white);
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

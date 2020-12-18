@@ -1,0 +1,94 @@
+:root{
+    --primeiro:#737373;
+    --segundario:#191919;
+    --blue-fundo:#15202B;
+    --text-area:#202020;
+    
+    --card-loja:#E5E5E5;
+  
+    --white:#FFFFFF;
+  
+    --red-primary:#FC0004;
+    --red-secondary:#E0021B;
+    --red-chat:#FA0621;
+    --red-hover:#AB0106;
+  
+    --blue:#1289FF; 
+}
+.container-perfil{
+    display: grid;
+    grid-template-columns: 30% 80%;
+}
+.perfil-jogos{
+    margin-top: 15px;
+    margin-left: 5vh;
+    width: 350px;
+    padding: 5px;
+    background-color: var(--segundario);
+    min-height: 500px;
+    height: calc(50vh - 50px);
+    overflow-y: auto;
+}
+.content-area{
+    height: 720px;
+}
+.perfil-perfil{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 800px;
+    height: 500px;
+    background-color: var(--segundario);
+}
+.container-jogo-perfil{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 280px;
+    height: 60px;
+    background-color: var(--primeiro);
+    display: grid;
+    grid-template-columns: 20% 67% 15%;
+}
+.foto-jogo-perfil{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.perfil-jogo-container-text{
+    margin-top: 4px;
+    width: 190px;
+    height: 50px;
+    background-color: var(--blue);
+}
+.svg-normal{
+    width: 25px;
+    height: 25px;
+    color: white;
+    margin: auto auto auto auto;
+}
+.svg-normal:hover{
+    cursor: pointer;
+    color: var(--red-hover);
+}
+.perfil{
+    width: 500px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-perfil-foto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 200px;
+}
+.perfil-input{
+    width: 500px;
+    margin-top: 15px;
+    min-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
